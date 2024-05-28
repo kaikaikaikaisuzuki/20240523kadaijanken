@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+body{
+    font-size:16px;
+    line-height: 1.5;
+    color:#424242;    
+    font-family: 'Roboto', "Hiragino Kaku Gothic ProN", "Hiragino Kaku Gothic Pro", "游ゴシック", YuGothic,'Meiryo UI',Meiryo,"ＭＳ ゴシック",Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    max-width: 1200px; /* ウェブサイトの幅を最大1200pxに指定 */
+    margin: 0 auto; /* ウェブサイトを中央に配置 */
+}
+.outer{
+    padding: 80px 0;
+}
+.text-center{
+    text-align: center;
+}
+.page-title{
+    margin-bottom: 24px;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.box{
+    /* display: flex;
+    justify-content: space-between; */
+    width: 640px;
+    margin: 24px auto 64px;
+    font-size: 18px;
+}
+.box-item{
+    margin-bottom: 32px;
+}
+.box-title{
+    display: inline-block;
+    width: 180px;
+    text-align: right;
+}
+
+
+
+.form-control {
+    font-size: 15px;
+    width: 90px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    text-align: center;
+    font-weight: bold;
+    padding: 20px 15px;
+    background-color: #ffffff;
+    color: #000000;
+    border: #000000 solid 2px;
+    border-radius: 5px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    box-shadow: 0 0 6px 0 
+      rgba(0, 0, 0, 0.5);
+    height: 60px;
+    transition: 0.2s;
+}
+  
+/* マウスオーバー時 */
+.form-control:hover{
+    box-shadow: 0 4px 7px 0 rgba(0, 0, 0, 0.5);
+    transform: translateY(-5px);
+    cursor: pointer;
+    }
+
+
+/* 動画の横幅をウェブサイトの幅に収まるようにし、高さを自動調整 */
+video {
+    display: block; /* 中央配置のためにブロック要素に変更 */
+    margin: 0 auto; /* 左右の余白を自動で均等に設定して中央に配置 */
+    max-width: 70%; /* ウェブサイトの幅に収まるように最大幅を指定 */
+    height: auto; /* 高さを自動調整 */
+    margin-bottom: 32px;
+}
+
+
+.result{
+    font-size: 32px;
+}
+
