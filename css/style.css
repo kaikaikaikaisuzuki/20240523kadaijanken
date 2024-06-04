@@ -40,8 +40,8 @@ body{
 
 
 .form-control {
-    font-size: 15px;
-    width: 90px;
+    font-size: 10px;
+    width: 75px;
     margin-left: auto;
     margin-right: auto;
     margin-top: 40px;
@@ -83,3 +83,12 @@ video {
     font-size: 32px;
 }
 
+.senreki01{
+    margin-bottom: 24px;
+    border-top: solid 1px #efefef;
+}
+
+.senrekili{
+    padding: 12px;
+    border-bottom: solid 1px #efefef;
+}
